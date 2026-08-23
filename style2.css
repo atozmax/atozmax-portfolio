@@ -418,6 +418,8 @@ p {
   width: min(100%, 520px);
   height: auto;
   margin-left: auto;
+  overflow: visible;
+  shape-rendering: geometricPrecision;
   filter: drop-shadow(0 30px 60px var(--hero-glow));
   transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -664,6 +666,8 @@ p {
   height: auto;
   margin-left: auto;
   display: block;
+  overflow: visible;
+  shape-rendering: geometricPrecision;
   filter: drop-shadow(0 30px 60px var(--hero-glow));
   transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
